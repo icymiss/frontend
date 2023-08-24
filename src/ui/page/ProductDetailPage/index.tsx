@@ -19,7 +19,6 @@ type Params = {
 
 export default function ProductDetailPage(){
     const [quantity, setQuantity] = useState<number>(1);
-
     const [productDetailDto, setProductDetailDto] = useState<ProductDetailDto | undefined>(undefined);
 
     const params = useParams<Params>();
@@ -33,7 +32,6 @@ export default function ProductDetailPage(){
             }
         } catch (error){
             navigate("/error");
-
     }
 }
 
@@ -52,7 +50,6 @@ export default function ProductDetailPage(){
                          : <LoadingSpinner/>
                     }
                  </div>
-
         </div>
     )
 }
