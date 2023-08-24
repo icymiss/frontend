@@ -6,8 +6,6 @@ import {ProductListDto} from "../../data/dto/ProductListDto";
 import {Link} from "react-router-dom";
 import {library} from '@fortawesome/fontawesome-svg-core';
 
-
-
 type Props = {
     productListDto: ProductListDto
 }
@@ -31,8 +29,6 @@ export default function ProductCard(props: Props){
                    </Button> </Link>
             </Card.Body>
         </Card>
-
         </div>
-
     )
 }
