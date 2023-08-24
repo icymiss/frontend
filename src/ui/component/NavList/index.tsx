@@ -7,8 +7,6 @@ export default function NavList() {
         textDecoration: "none"
     }
 
-
-
     return (
         <div className="d flex" style = {NavListStyle}>
             <ul>
