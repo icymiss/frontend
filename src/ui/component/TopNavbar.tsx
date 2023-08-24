@@ -22,14 +22,9 @@ export default function TopNavBar(){
 
                 <Nav className="me-auto">
                     <Nav.Link href="/#/">Home</Nav.Link>
-                    {/*<Nav.Link href="/#/Product/10">Product<DropdownMenu/></Nav.Link>*/}
                     <Nav.Link href="/#/product/8/">Product</Nav.Link>
-                    {/*<NavList/>*/}
-
-
                 </Nav>
             </Container>
         </Navbar>
     </>
-
 }
